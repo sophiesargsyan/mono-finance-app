@@ -3,6 +3,7 @@
 A minimal, local-first expense tracking app built with Expo / React Native.
 
 ## Run on your iPhone
+
 1. Install Node.js (LTS) on your Mac.
 2. In Terminal, navigate to this folder: `cd mono-finance-app`
 3. Run `npm install`.
@@ -10,10 +11,12 @@ A minimal, local-first expense tracking app built with Expo / React Native.
 5. Install **Expo Go** on your iPhone and scan the QR code using the iPhone Camera app.
 
 ## Smart Available to Spend
+
 `max(0, min(starting balance + all recorded income - all recorded expenses - reserved obligations, monthly budget - monthly expenses))`.
 If the minimum is negative, the Home screen shows how far you are over the limit.
 
 ## Important MVP limitations
+
 - Data is saved only on this device using AsyncStorage; it is **not encrypted or backed up**. Do not use for sensitive financial identifiers.
 - Currency changes only relabel amounts; they do not perform FX conversion.
 - Reserved obligations are entered as a single total, not individual scheduled bills.

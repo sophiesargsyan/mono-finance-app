@@ -9,9 +9,6 @@
       "supportsTablet": false,
       "bundleIdentifier": "com.mono.personalfinance"
     },
-    "plugins": [
-      "expo-status-bar",
-      "expo-font"
-    ]
+    "plugins": ["expo-status-bar", "expo-font"]
   }
 }
